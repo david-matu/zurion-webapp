@@ -56,12 +56,13 @@ CREATE TABLE IF NOT EXISTS `zuriondb`.`contact` (
 ENGINE = InnoDB;
 ```
 
-Kindly note the name of the schema, if you change, please change the Java web app properties as well [/zurionweb/WebContent/WEB-INF/app.properties]./WebContent/WEB-INF/app.properties)
+Kindly note the name of the schema, if you change, please change the Java web app properties as well [/zurionweb/WebContent/WEB-INF/app.properties](./WebContent/WEB-INF/app.properties)
 
 2. Export the web app (war file) to Tomcat V9.x server
 
 3. Start the server
 
+4. Access the web app via browser at [http://localhost:8080/zurionweb/](http://localhost:8080/zurionweb/)
 
 __NOTE:__ Remember to change the database connection details to match the credentials of your running database in `app.properties` (`/zurionweb/WebContent/WEB-INF/app.properties`) file:
 
